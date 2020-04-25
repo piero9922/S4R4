@@ -1,16 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
     <title>R4S4</title>
-</head>
-<body>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
+  </head>
+  <body>
+    <section class="first-container">
+      <div class="first-section">
+        <h1>Pachaqtec</h1>
+        <p>Hola, Mi nombre es Piero Montalvo</p>
+      </div>
+    </section>
+    <section class="second-container">
+      <div class="second-section">
+        <h1>Sobre mi</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis diam
+          commodo, arcu gravida erat quam donec convallis. Gravida arcu,
+          suspendisse semper mauris tristique tortor. Eu, malesuada elit feugiat
+          laoreet malesuada vitae. zz enim habitasse malesuada lacus, euismod
+          pharetra habitasse. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Quis diam commodo, arcu gravida erat quam donec convallis.
+          Gravida arcu, suspendisse semper mauris tristique tortor. Eu,
+          malesuada elit feugiat laoreet malesuada vitae. zz enim habitasse
+          malesuada lacus, euismod pharetra habitasse. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit. Quis diam commodo, arcu gravida
+          erat quam donec convallis. Gravida arcu, suspendisse semper mauris
+          tristique tortor. Eu, malesuada elit feugiat laoreet malesuada vitae.
+          zz enim habitasse malesuada lacus, euismod pharetra habitasse.
+        </p>
+    </div>
+    <div class="input-container">
+        <form action="">
+        <button type="submit">Ver CV</button>
+
+    </div>
+        </form>
+    </section>
+    <section class="skills">
+        <div class="skills-container">
+            <h1>Mis skills</h1>
+            <div class="row">
+                <div class="row-container">
+                    <div class="row-html">
+                        <p>HTML</p>
+                        <div class="image-html">
+                            <img class="img1" src="images/Rectangle 7.png" alt="">
+                            <img class="img2" src="images/Rectangle 8.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row-js">
+                        <p>Javascripts</p>
+                        <div class="image-js">
+                            <img class="img3" src="images/Rectangle 7.png" alt="">
+                            <img class="img4" src="images/Rectangle 8.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row-fb">
+                        <p>FlexBox</p>
+                        <div class="image-fb">
+                            <img class="img5" src="images/Rectangle 7.png" alt="">
+                            <img class="img6" src="images/Rectangle 8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row-second">
+                    <div class="row-css">
+                        <p>CSS</p>
+                        <div class="image-css">
+                            <img class="img7" src="images/Rectangle 7.png" alt="">
+                            <img class="img8" src="images/Rectangle 8.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row-vue">
+                        <p>Vue</p>
+                        <div class="image-vue">
+                            <img class="img9" src="images/Rectangle 7.png" alt="">
+                            <img class="img10" src="images/Rectangle 8.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row-grid">
+                        <p>CSS Grid</p>
+                        <div class="image-grid">
+                            <img class="img11" src="images/Rectangle 7.png" alt="">
+                            <img class="img12" src="images/Rectangle 8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <h1>Portafolio</h1>
+        <div class="figure-portfolio">
+            <div class="img-portfolio-1">
+                <img src="images/image (1).png" alt="">
+                <img src="images/image (2).png" alt="">
+                <img src="images/image (3).png" alt="">
+                <img src="images/image (4).png" alt="">
+            </div>
+            <div class="img-portfolio-2">
+                <img src="images/image (5).png" alt="">
+                <img src="images/image (6).png" alt="">
+                <img src="images/image (7).png" alt="">
+                <img src="images/image.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="people">
+        <div class="people-container">
+            <h1>Clientes</h1>
+            <div class="img-clientes">
+                <img src="images/image 0.1.png" alt="">
+                <img src="images/image 0.2.png" alt="">
+                <img src="images/image 0.3.png" alt="">
+                <img src="images/image 0.4.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="formulario">
+        <div class="personal-information">
+          <h1>Contacto</h1>
+          <form class="container" action="#">
+              <div class="container-names">
+                  <input class="name" type="text" placeholder="Nombre" required pattern="[A-za-z]+"/>
+                  <input class="lastname" type="text" placeholder="Apellido" required pattern="[A-za-z]+"/>
+              </div>
+              <div class="container-data">
+                  <input class="email" type="email" placeholder="Email" required/>
+                  <input class="phone" type="text" placeholder="Telefono"required pattern="[0-9]+"/>
+              </div>
+              <div class="container-information">
+                  <textarea class="description" placeholder="Descripcion" maxlength="100" required pattern="[A-za-z0-9]+" ></textarea>
+            </div>
+            <div class="botton">
+                <button>Enviar</button>
+              </form>
+            </div>
+          </form>
+        </div>
+      </section>
 </body>
 </html>

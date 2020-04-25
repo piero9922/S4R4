@@ -1,0 +1,377 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-container{
+    height: 700px;
+    background-image: url('/images/image 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+}
+    
+
+.first-section{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 100px);
+}
+
+.first-section h1{  
+    display: grid;
+    grid-column: 4;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.first-section p{
+    display: grid;
+    grid-column: 2 /span 2;
+    grid-row: 5;
+    font-size: 40px;
+    font-weight: bolder;
+    box-shadow: 0 0 1px;
+    background: rgba(114, 153, 254, 0.5);
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.second-container{
+    height: 452px;
+    background: #7299FE;
+
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second-section h1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 40px 0 10px 0;
+    color: white;
+}
+
+.second-section p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    width: 872px;
+    height: 260px;
+    margin-top: 20px;
+    color: white;
+}
+
+.input-container{
+    display: grid;
+}
+
+form{
+    display: grid;
+    grid-template-columns: repeat(2, 240px);
+}
+
+form button{
+    grid-column: 2;
+    background: #D16FFF;
+    border-radius: 10px;
+    width: 187px;
+    height: 62px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 20px;
+    border: none;
+}
+
+button:hover{
+    box-shadow: 3px -3px 5px 1px;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.skills{
+    background: #9122FF;
+    height: 424px;
+    padding-top: 50px;
+}
+
+.skills-container h1{
+   font-size: 40px;
+   font-weight: bolder;
+   padding-top: 30px;
+   text-align: center;
+   color: white;
+} 
+
+.row{
+    padding: 40px;
+}
+.row p{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.row-html{
+    padding: 20px;
+}
+.row-html .image-html{
+    position: absolute;
+}
+
+.image-html .img1{
+    position: absolute;
+    height: 21px;
+}
+
+.image-html .img2{
+    position: absolute;
+}
+
+.row-js{
+    padding: 20px;
+}
+
+.row-js .image-js{
+    position: absolute;
+}
+
+.image-js .img3{
+    position: absolute;
+    height: 21px;
+
+}
+
+.image-js .img4{
+    position: absolute;
+}
+
+
+.row-fb{
+    padding: 20px;
+}
+.row-fb .image-fb{
+    position: absolute;
+}
+
+.image-fb .img5{
+    position: absolute;
+    height: 21px;
+
+}
+
+.image-fb .img6{
+    position: absolute;
+}
+
+.row-container{
+    position: absolute;
+    left: 160px;
+}
+
+.row-css{
+    padding: 20px;
+}
+.row-css .image-css{
+    position: absolute;
+}
+
+.image-css .img7{
+    position: absolute;
+    height: 21px;
+
+}
+
+.image-css .img8{
+    position: absolute;
+}
+
+.row-vue{
+    padding: 20px;
+}
+.row-vue .image-vue{
+    position: absolute;
+}
+
+.image-vue .img9{
+    position: absolute;
+    height: 21px;
+
+}
+
+.image-vue .img10{
+    position: absolute;
+}
+
+.row-grid{
+    padding: 20px;
+}
+.row-grid .image-fb{
+    position: absolute;
+}
+
+.image-grid .img11{
+    position: absolute;
+    height: 21px;
+
+}
+
+.image-grid .img12{
+    position: absolute;
+}
+
+.row-second{
+    position: absolute;
+    right: 552px;
+}
+
+.portfolio{
+    height: 424px;
+    background: #FFD233;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio h1{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.img-portfolio-1{
+    display: flex;
+    justify-content: center;
+}
+
+.img-portfolio-1 img{
+    margin: 5px;
+}
+
+.img-portfolio-2{
+    display: flex;
+    justify-content: center;
+}
+
+.img-portfolio-2 img{
+    margin: 5px;
+}
+
+.people{
+    background: #3F4E62;
+    height: 258px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.people-container h1{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+.img-clientes img{
+    margin: 10px;
+}
+
+.img-clientes img:hover{
+    box-shadow: 7px -10px 5px 0px #99bd99;
+}
+/* sdfg */
+.formulario{
+    background: #1687a0;
+}
+.personal-information{
+    padding: 20px;
+}
+
+.formulario h1 {
+    margin: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: arial;
+    text-align: center;
+    color: white;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+::-webkit-input-placeholder {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container-names .name{
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+    padding: 5px 15px;
+}
+
+
+.container-names .lastname{
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+    padding: 5px 15px;
+}
+
+.container-data .email{
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+    padding: 5px 15px;
+}
+
+.container-data .phone{
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+    padding: 5px 15px;
+}
+
+.container-information .description{
+    margin: 10px;
+    width: 561px;
+    height: 100px;
+    resize: none;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botton{
+    margin: 20px;
+}
+
+.botton button{
+    padding: 15px 40px;
+    text-transform: uppercase;
+    background: #233451;
+    border: 1px solid #233451;
+    color: white;
+}
+
+
+
+
+
